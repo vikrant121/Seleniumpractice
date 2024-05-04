@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,26 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 2 failed,   1 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="PageObjects.EmployeePage" class="method navigator-link" hash-for-method="deleteEmployee">deleteEmployee</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="PageObjects.EmployeePage" class="method navigator-link" hash-for-method="searchEmployeeNyName">searchEmployeeNyName</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
+                    <span class="method-stats">7 methods,   7 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -123,7 +104,37 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="PageObjects.OrangeHRM" class="method navigator-link" hash-for-method="ListEmployees">ListEmployees</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="PageObjects.EmployeePage" class="method navigator-link" hash-for-method="addEmployee">addEmployee</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="PageObjects.OrangeHRM" class="method navigator-link" hash-for-method="applyLeave">applyLeave</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="PageObjects.EmployeePage" class="method navigator-link" hash-for-method="deleteEmployee">deleteEmployee</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="PageObjects.OrangeHRM" class="method navigator-link" hash-for-method="doLoginWithInvalidCredential">doLoginWithInvalidCredential</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="PageObjects.OrangeHRM" class="method navigator-link" hash-for-method="loginTestWithValidCredential">loginTestWithValidCredential</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="PageObjects.EmployeePage" class="method navigator-link" hash-for-method="searchEmployeeNyName">searchEmployeeNyName</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -138,61 +149,42 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
+          <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">PageObjects.EmployeePage</span>
+              <img src="passed.png"/>
+              <span class="class-name">PageObjects.OrangeHRM</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="deleteEmployee">
-                  </a> <!-- deleteEmployee -->
-                  <span class="method-name">deleteEmployee</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@name=&apos;username&apos;]&quot;}
-  (Session info: chrome=124.0.6367.118)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5e79181d9577dfea7f91322f8631406e, findElement {using=xpath, value=//*[@name=&apos;username&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.118, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\Sweet\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62262}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62262/devtoo..., se:cdpVersion: 124.0.6367.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5e79181d9577dfea7f91322f8631406e
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy15.sendKeys(Unknown Source)
-	at PageObjects.EmployeePage.logIn(EmployeePage.java:17)
-	at PageObjects.EmployeePage.deleteEmployee(EmployeePage.java:129)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 28 stack frames
-</div> <!-- stack-trace -->
+                  <a name="ListEmployees">
+                  </a> <!-- ListEmployees -->
+                  <span class="method-name">ListEmployees</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="searchEmployeeNyName">
-                  </a> <!-- searchEmployeeNyName -->
-                  <span class="method-name">searchEmployeeNyName</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [Record Found] but found [(91) Records Found]
-	at PageObjects.EmployeePage.searchEmployeeNyName(EmployeePage.java:113)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 31 stack frames
-</div> <!-- stack-trace -->
+                  <a name="applyLeave">
+                  </a> <!-- applyLeave -->
+                  <span class="method-name">applyLeave</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="doLoginWithInvalidCredential">
+                  </a> <!-- doLoginWithInvalidCredential -->
+                  <span class="method-name">doLoginWithInvalidCredential</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTestWithValidCredential">
+                  </a> <!-- loginTestWithValidCredential -->
+                  <span class="method-name">loginTestWithValidCredential</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
+          </div> <!-- suite-Suite-class-passed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -204,6 +196,20 @@ Session ID: 5e79181d9577dfea7f91322f8631406e
                   <a name="addEmployee">
                   </a> <!-- addEmployee -->
                   <span class="method-name">addEmployee</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteEmployee">
+                  </a> <!-- deleteEmployee -->
+                  <span class="method-name">deleteEmployee</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchEmployeeNyName">
+                  </a> <!-- searchEmployeeNyName -->
+                  <span class="method-name">searchEmployeeNyName</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -225,6 +231,7 @@ Session ID: 5e79181d9577dfea7f91322f8631406e
     &lt;parameter name=&quot;key&quot; value=&quot;true&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;PageObjects.EmployeePage&quot;/&gt;
+      &lt;class name=&quot;PageObjects.OrangeHRM&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test2 --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -238,7 +245,7 @@ Session ID: 5e79181d9577dfea7f91322f8631406e
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test2 (1 class)</span>
+                <span class="test-name">Test2 (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -264,24 +271,40 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(7);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'addEmployee')
-data.setCell(0, 2, 'PageObjects.EmployeePage')
-data.setCell(0, 3, 30391);
+data.setCell(0, 1, 'ListEmployees')
+data.setCell(0, 2, 'PageObjects.OrangeHRM')
+data.setCell(0, 3, 33140);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'deleteEmployee')
+data.setCell(1, 1, 'addEmployee')
 data.setCell(1, 2, 'PageObjects.EmployeePage')
-data.setCell(1, 3, 20085);
+data.setCell(1, 3, 27485);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'searchEmployeeNyName')
+data.setCell(2, 1, 'deleteEmployee')
 data.setCell(2, 2, 'PageObjects.EmployeePage')
-data.setCell(2, 3, 8255);
+data.setCell(2, 3, 18686);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'applyLeave')
+data.setCell(3, 2, 'PageObjects.OrangeHRM')
+data.setCell(3, 3, 17976);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'searchEmployeeNyName')
+data.setCell(4, 2, 'PageObjects.EmployeePage')
+data.setCell(4, 3, 8509);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'loginTestWithValidCredential')
+data.setCell(5, 2, 'PageObjects.OrangeHRM')
+data.setCell(5, 3, 3447);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'doLoginWithInvalidCredential')
+data.setCell(6, 2, 'PageObjects.OrangeHRM')
+data.setCell(6, 3, 2611);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 58 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -296,9 +319,18 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">2 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">PageObjects.OrangeHRM</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+                <span class="ignored-method-name">openBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Suite" class="panel">
@@ -314,23 +346,41 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">addEmployee</span>
-                <span class="method-start">17156 ms</span>
+                <span class="method-start">8642 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">searchEmployeeNyName</span>
-                <span class="method-start">47600 ms</span>
+                <span class="method-start">36147 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">deleteEmployee</span>
-                <span class="method-start">55876 ms</span>
+                <span class="method-start">44660 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageObjects.OrangeHRM</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">doLoginWithInvalidCredential</span>
+                <span class="method-start">63352 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginTestWithValidCredential</span>
+                <span class="method-start">65968 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ListEmployees</span>
+                <span class="method-start">69416 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">applyLeave</span>
+                <span class="method-start">102566 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageObjects.EmployeePage</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">75980 ms</span>
+                <span class="method-start">120545 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

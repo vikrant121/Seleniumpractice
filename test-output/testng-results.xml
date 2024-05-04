@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="1" failed="2" skipped="0">
+<testng-results ignored="2" total="9" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-04T00:30:38 IST" name="Suite" finished-at="2024-05-04T00:31:55 IST" duration-ms="77119">
+  <suite started-at="2024-05-04T12:56:13 IST" name="Suite" finished-at="2024-05-04T12:58:14 IST" duration-ms="121455">
     <groups>
     </groups>
-    <test started-at="2024-05-04T00:30:38 IST" name="Test2" finished-at="2024-05-04T00:31:55 IST" duration-ms="77119">
+    <test started-at="2024-05-04T12:56:13 IST" name="Test2" finished-at="2024-05-04T12:58:14 IST" duration-ms="121455">
       <class name="PageObjects.EmployeePage">
-        <test-method is-config="true" signature="openBrowser(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:PageObjects.EmployeePage@564fabc8]" started-at="2024-05-04T00:30:38 IST" name="openBrowser" finished-at="2024-05-04T00:30:55 IST" duration-ms="17048" status="PASS">
+        <test-method is-config="true" signature="openBrowser(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:PageObjects.EmployeePage@223d2c72]" started-at="2024-05-04T12:56:13 IST" name="openBrowser" finished-at="2024-05-04T12:56:21 IST" duration-ms="8571" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -33,135 +33,41 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="addEmployee()[pri:1, instance:PageObjects.EmployeePage@564fabc8]" started-at="2024-05-04T00:30:55 IST" name="addEmployee" finished-at="2024-05-04T00:31:26 IST" duration-ms="30391" status="PASS">
+        <test-method signature="addEmployee()[pri:1, instance:PageObjects.EmployeePage@223d2c72]" started-at="2024-05-04T12:56:21 IST" name="addEmployee" finished-at="2024-05-04T12:56:49 IST" duration-ms="27485" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addEmployee -->
-        <test-method signature="searchEmployeeNyName()[pri:2, instance:PageObjects.EmployeePage@564fabc8]" started-at="2024-05-04T00:31:26 IST" name="searchEmployeeNyName" finished-at="2024-05-04T00:31:34 IST" duration-ms="8255" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Record Found] but found [(91) Records Found]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Record Found] but found [(91) Records Found]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-at org.testng.Assert.assertEquals(Assert.java:122)
-at org.testng.Assert.assertEquals(Assert.java:629)
-at org.testng.Assert.assertEquals(Assert.java:639)
-at PageObjects.EmployeePage.searchEmployeeNyName(EmployeePage.java:113)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="searchEmployeeNyName()[pri:2, instance:PageObjects.EmployeePage@223d2c72]" started-at="2024-05-04T12:56:49 IST" name="searchEmployeeNyName" finished-at="2024-05-04T12:56:57 IST" duration-ms="8509" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchEmployeeNyName -->
-        <test-method signature="deleteEmployee()[pri:3, instance:PageObjects.EmployeePage@564fabc8]" started-at="2024-05-04T00:31:34 IST" name="deleteEmployee" finished-at="2024-05-04T00:31:54 IST" duration-ms="20085" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@name='username']"}
-  (Session info: chrome=124.0.6367.118)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5e79181d9577dfea7f91322f8631406e, findElement {using=xpath, value=//*[@name='username']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.118, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\Sweet\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62262}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62262/devtoo..., se:cdpVersion: 124.0.6367.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5e79181d9577dfea7f91322f8631406e]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@name='username']"}
-  (Session info: chrome=124.0.6367.118)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5e79181d9577dfea7f91322f8631406e, findElement {using=xpath, value=//*[@name='username']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.118, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\Sweet\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62262}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62262/devtoo..., se:cdpVersion: 124.0.6367.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5e79181d9577dfea7f91322f8631406e
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy15.sendKeys(Unknown Source)
-at PageObjects.EmployeePage.logIn(EmployeePage.java:17)
-at PageObjects.EmployeePage.deleteEmployee(EmployeePage.java:129)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method signature="deleteEmployee()[pri:3, instance:PageObjects.EmployeePage@223d2c72]" started-at="2024-05-04T12:56:57 IST" name="deleteEmployee" finished-at="2024-05-04T12:57:16 IST" duration-ms="18686" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteEmployee -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:PageObjects.EmployeePage@564fabc8]" started-at="2024-05-04T00:31:54 IST" name="afterTest" finished-at="2024-05-04T00:31:55 IST" duration-ms="1127" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:PageObjects.EmployeePage@223d2c72]" started-at="2024-05-04T12:58:13 IST" name="afterTest" finished-at="2024-05-04T12:58:14 IST" duration-ms="898" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- PageObjects.EmployeePage -->
+      <class name="PageObjects.OrangeHRM">
+        <test-method signature="doLoginWithInvalidCredential()[pri:1, instance:PageObjects.OrangeHRM@7f3b84b8]" started-at="2024-05-04T12:57:16 IST" name="doLoginWithInvalidCredential" finished-at="2024-05-04T12:57:19 IST" duration-ms="2611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginWithInvalidCredential -->
+        <test-method signature="loginTestWithValidCredential()[pri:3, instance:PageObjects.OrangeHRM@7f3b84b8]" started-at="2024-05-04T12:57:19 IST" name="loginTestWithValidCredential" finished-at="2024-05-04T12:57:22 IST" duration-ms="3447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestWithValidCredential -->
+        <test-method signature="ListEmployees()[pri:4, instance:PageObjects.OrangeHRM@7f3b84b8]" started-at="2024-05-04T12:57:22 IST" name="ListEmployees" finished-at="2024-05-04T12:57:55 IST" duration-ms="33140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ListEmployees -->
+        <test-method signature="applyLeave()[pri:5, instance:PageObjects.OrangeHRM@7f3b84b8]" started-at="2024-05-04T12:57:55 IST" name="applyLeave" finished-at="2024-05-04T12:58:13 IST" duration-ms="17976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applyLeave -->
+      </class> <!-- PageObjects.OrangeHRM -->
     </test> <!-- Test2 -->
   </suite> <!-- Suite -->
 </testng-results>

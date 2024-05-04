@@ -8,7 +8,8 @@
 	  <parameter name="reportname" value="OrangeHRMX"></parameter>
 	  <parameter name="key" value="true"></parameter>
     <classes>
-       <class name="PageObjects.EmployeePage"></class>  
+       <class name="PageObjects.EmployeePage"></class>
+         <class name="PageObjects.OrangeHRM"></class> 
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
